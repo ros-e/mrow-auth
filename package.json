@@ -22,8 +22,12 @@
     "prepublishOnly": "bun run build"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/bun": "latest",
-    "typescript": "^5"
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "typescript": "^5",
+    "typescript-eslint": "^8.62.1"
   },
   "peerDependencies": {
     "typescript": "^5"
